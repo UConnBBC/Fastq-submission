@@ -110,10 +110,6 @@ for fs in fastqfiles:
 			
 		if flag != 1: #If cannot find current record in dict of lists of hashes
 			missing.append(record) 
-			#add to list of records we failed to have a def for
-		#else:
-			#print (time.time() - r1)*1000 
-			## how long (ms) does it take to find a single record?
 			
 	t4 = time.time()
 	m, s = divmod((t4-t3), 60)	
